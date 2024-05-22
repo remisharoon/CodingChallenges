@@ -10,16 +10,18 @@ class Solution:
                 if rsum > lsum:
                     splits += 1
                     rsum = num
-                print("cansplit- ", splits, rsum, lsum)
-            return splits >= k
+            splits += 1
+            return splits <= k
 
         lsum = None
-        while maxb > minb and (maxb - minb) > 1:
-            print(minb, maxb, lsum)
-            lsum = minb + (maxb - minb) // 2
+        lminsum = maxb
+        while maxb >= minb:
+            lsum = minb + ((maxb - minb) // 2)
+            #print(minb, maxb, lsum)
             if canSplit(lsum):
-                maxb = lsum
+                maxb = lsum - 1
+                lminsum = min(lminsum, lsum)
             else:
-                minb = lsum
-        return lsum
+                minb = lsum + 1
+        return lminsum
 
