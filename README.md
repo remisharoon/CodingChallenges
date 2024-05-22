@@ -8,47 +8,13 @@ Each main directory represents a platform (e.g., LeetCode, HackerRank) and is su
 
 - **LeetCode**:
   - Easy:
-    - Python
-    - Java
-    - Scala
-    - JavaScript
   - Medium:
-    - Python
-    - Java
-    - Scala
-    - JavaScript
   - Hard:
-    - Python
-    - Java
-    - Scala
-    - JavaScript
 - **HackerRank**:
   - Algorithms:
-    - Python
-    - Java
-    - Scala
-    - JavaScript
   - Data Structures:
-    - Python
-    - Java
-    - Scala
-    - JavaScript
   - Mathematics:
-    - Python
-    - Java
-    - Scala
-    - JavaScript
-- **CodeSignal**:
-  - Arcade:
-    - Python
-    - Java
-    - Scala
-    - JavaScript
-  - Interview Practice:
-    - Python
-    - Java
-    - Scala
-    - JavaScript
+
 
 ## How to Use This Repository
 
